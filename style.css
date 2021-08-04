@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 3px 1px 6px #ccc;
+}
+
+.navbar {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.938rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul > li {
+  list-style: none;
+  margin: 1rem 1.25rem;
+  position: relative;
+}
+
+li > a {
+  text-decoration: none;
+  color: #777;
+}
+
+.navbar li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #608bfe;
+  transition: 0.2s all;
+}
+.navbar li:hover:after {
+  width: 100%;
+  height: 2px;
+}
+
+.main-section {
+  height: 130vh;
+  background: no-repeat center/cover
+    url("http://www.templatewire.com/preview/interact/img/intro-bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main-section::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.main-section > * {
+  position: relative;
+  z-index: 10;
+}
+
+.title-description {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  max-width: 750px;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.78;
+  padding-top: 1rem;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-top: 4rem;
+  border: navajowhite;
+  border-radius: 45px;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #2168c3;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: 0.6s all;
+}
+
+.btn:hover {
+  background-image: none;
+  background-color: #6372ff;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 5rem 0;
+}
+
+.features-title {
+  color: #333;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  position: relative;
+}
+
+.features-title::after {
+  content: "";
+  width: 35%;
+  height: 2px;
+  border-bottom: 4px solid #608bfe;
+  padding-bottom: 1rem;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box > i {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2.25rem;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-radius: 100%;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
+}
+
+.detail {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.detail h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 0.765rem;
+}
+
+.detail p {
+  max-width: 300px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #7a7777;
+}
+
+/* About us container */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.5rem 0;
+}
+
+.about-us {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-image {
+  width: 47%;
+  margin-right: 5.5rem;
+  margin: 0.435rem 5.5rem 0 0;
+}
+
+.about {
+  width: 57%;
+}
+.about-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+}
+
+.about-description h3 {
+  font-weight: 900;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  align-self: flex-start;
+  position: relative;
+  padding-bottom: 0.98rem;
+  margin-bottom: 2rem;
+}
+
+.about-description h3:after {
+  content: "";
+  width: 35%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.about-description p {
+  font-weight: 400;
+  color: #7a7777;
+  font-size: 0.95rem;
+  line-height: 1.78;
+}
+
+.about-details h3 {
+  font-family: "Raleway";
+  text-transform: capitalize;
+  font-size: 1.45rem;
+  font-weight: 500;
+  color: #333;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.details-description {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.details-description ul {
+  color: #7a7777;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.fa-check {
+  font-size: 0.6rem;
+  color: #5ca9fb;
+  margin-right: 0.5rem;
+}
+
+.services-container {
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  padding: 5.5rem 0;
+}
+
+.services-title {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 2.5rem;
+}
+
+.services-title h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.2rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.services-title h3::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.services-title p {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 1.5rem 0;
+}
+
+.services-introduction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  grid-gap: 3rem;
+}
+
+.detail.services h4 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.detail.services p {
+  color: rgba(255, 255, 255, 0.75);
+}
