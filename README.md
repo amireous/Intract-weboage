@@ -1,3 +1,3 @@
-intract webpage
-idea by TemplateWire
-thanks to yara internship course fot idea.
+intract webpage,
+idea by TemplateWire,
+thanks to yara internship course for idea.
