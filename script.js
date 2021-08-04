@@ -4,43 +4,37 @@
 const clientContainer = document.querySelector(".clients");
 const users = [
   {
-    image:
-      "http://www.templatewire.com/preview/interact/img/testimonials/01.jpg",
+    image: "assest/images/client01.jpg",
     name: "john doe",
     comment:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."',
   },
   {
-    image:
-      "http://www.templatewire.com/preview/interact/img/testimonials/02.jpg",
+    image: "assest/images/client02.jpg",
     name: "johnathan doe",
     comment:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."',
   },
   {
-    image:
-      "http://www.templatewire.com/preview/interact/img/testimonials/03.jpg",
+    image: "assest/images/client03.jpg",
     name: "john doe",
     comment:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."',
   },
   {
-    image:
-      "http://www.templatewire.com/preview/interact/img/testimonials/04.jpg",
+    image: "assest/images/client04.jpg",
     name: "johnathan doe",
     comment:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."',
   },
   {
-    image:
-      "http://www.templatewire.com/preview/interact/img/testimonials/05.jpg",
+    image: "assest/images/client05.jpg",
     name: "john doe",
     comment:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."',
   },
   {
-    image:
-      "http://www.templatewire.com/preview/interact/img/testimonials/06.jpg",
+    image: "assest/images/client06.jpg",
     name: "johnathan doe",
     comment:
       '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."',
