@@ -361,3 +361,57 @@ li > a {
 .detail.services p {
   color: rgba(255, 255, 255, 0.75);
 }
+
+/* gallery styles */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.gallery {
+  max-width: 1170px;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.gallery-title {
+  text-align: center;
+}
+
+.gallery-title h4 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  color: #333;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.gallery-title h4::after {
+  content: "";
+  width: 6%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+
+.gallery-title P {
+  color: #777;
+  font-weight: 400;
+  padding: 1rem 0 4rem 0;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-image a,
+.gallery-image img {
+  width: 100%;
+}
