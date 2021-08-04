@@ -415,3 +415,72 @@ li > a {
 .gallery-image img {
   width: 100%;
 }
+
+/* client section styles */
+
+.client-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 2rem 0;
+}
+
+.client-container h4 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 900;
+  color: #333;
+  padding-bottom: 0.75rem;
+  margin: 4rem;
+  position: relative;
+}
+
+h4::after {
+  content: "";
+  width: 15%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+.clients {
+  max-width: 1170px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.client img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.client-name {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #777;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.client-comment {
+  max-width: 270px;
+  font-size: 14px;
+  color: #777;
+  font-style: italic;
+}
